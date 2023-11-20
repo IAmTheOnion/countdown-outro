@@ -21,7 +21,7 @@ Welcome to the React Countdown Timer with YouTube Integration! This simple React
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/IAmTheOnion/countdown-outro.git
 
 2. **Navigate to the Project Directory:**
 
