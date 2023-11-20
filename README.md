@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+React Countdown Timer with YouTube Integration
+Welcome to the React Countdown Timer with YouTube Integration! This simple React application allows users to set a countdown timer for a specific date and time, while also providing the option to play a YouTube video when the countdown reaches a specified moment.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+DateTimePicker Component:
 
-## Available Scripts
+Select a date and time using the intuitive date-time picker.
+Enter a YouTube link for video integration.
+Specify the exact moment during the countdown to trigger the YouTube video.
+YouTubePlayer Component:
 
-In the project directory, you can run:
+Utilizes the react-youtube library for seamless YouTube video embedding.
+The player is hidden visually (height: '0', width: '0') while still allowing audio playback.
+CountdownTimer Component:
 
-### `npm start`
+Displays a dynamic countdown timer with days, hours, minutes, and seconds.
+Initiates YouTube video playback when the specified moment is reached.
+How to Use
+Clone the Repository:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Copy code
+git clone https://github.com/IAmTheOnion/countdown-outro.git
+Navigate to the Project Directory:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+cd your-repository
+Install Dependencies:
 
-### `npm test`
+bash
+Copy code
+npm install
+Run the Application:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+bash
+Copy code
+npm start
+Access the App:
+Open your browser and go to http://localhost:3000.
 
-### `npm run build`
+Set Countdown and Enjoy:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Choose a date and time.
+Enter a YouTube link.
+Specify the moment for the video.
+Click "Rozpocznij" to start the countdown.
+Dependencies
+React
+react-youtube
+Contributing
+Feel free to contribute to the project! If you encounter any issues or have suggestions for improvement, please open an issue or create a pull request.
