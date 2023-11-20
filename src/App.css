@@ -1,0 +1,56 @@
+body 
+{
+    background-color: blueviolet;
+    color: white;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: blueviolet;
+    color: white;
+}
+  
+#root {
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+}
+
+code 
+{
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+}
+
+.new-line 
+{
+    margin-top: 20px; /* Możesz dostosować wartość do preferowanego odstępu */
+}
+  
+#timeLeft 
+{
+    width: 100%;
+    font-size: 4vh;
+    font-weight: bold;
+    align-items: center;
+}
+  
+#timeLeft > div 
+{
+    margin-right: 10px; /* Dodatkowy odstęp między komponentami czasu */
+}
+
+.countdown-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .countdown-items {
+    display: flex;
+    gap: 10px; /* Dodatkowy odstęp między elementami odliczania */
+  }
+  
